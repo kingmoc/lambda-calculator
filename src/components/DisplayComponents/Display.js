@@ -4,7 +4,7 @@ import '../../styles/Display.scss'
 const Display = (props) => {
   return (
     <div className="display">
-      <h3>0</h3>
+      <p>{props.displayVal}</p>
     </div>
   )
 };
